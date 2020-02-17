@@ -1,0 +1,21 @@
+{
+  "name": "youtude-clone",
+  "version": "1.0.0",
+  "description": "Youtube Clone App using MERN",
+  "main": "index.js",
+  "repository": "https://github.com/goutam-das/youtube-clone.git",
+  "author": "Goutam Das",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon -r esm ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
